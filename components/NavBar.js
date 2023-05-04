@@ -16,7 +16,7 @@ export default function NavBar() {
     },
     {
       title: "About",
-      to: "/about",
+      to: "/About",
     },
     {
       title: "Works",
