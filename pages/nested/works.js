@@ -1,9 +1,9 @@
 import React from "react";
-import Layout from "../layoout/Layout";
+import Layout from '@/components/Layout';
 import { Box, CardMedia, Stack, Typography } from "@mui/material";
-import lancer from "../assests/R.png";
-import todolist from "../assests/checklist.jpeg";
-import shopping from "../assests/shopping.jpeg";
+import lancer from "@/assests/R.png";
+import todolist from "@/assests/checklist.jpeg";
+import shopping from "@/assests/shopping.jpeg";
 
 function Works() {
   return (
