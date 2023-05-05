@@ -1,8 +1,8 @@
 import { Box, CardMedia, Stack, Typography } from '@mui/material'
 import React from 'react'
-import gokul from '.../assests/gokul.jpg'
-import Layout from '.../components/Layout'
-import lancer from ".../assests/R.png";
+import gokul from '@/assests/gokul.jpg'
+import lancer from "@/assests/R.png";
+import Layout from '@/components/Layout';
 
 
 function About() {
