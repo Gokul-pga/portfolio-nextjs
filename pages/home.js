@@ -10,8 +10,10 @@ function Homepage() {
         <Stack  gap={3} margin="30px 60px 0 60px">
          
             <Stack gap={3} sx={{flexDirection:'row',backgroundColor: "#1a1a1a",padding: "20px",width:{xl:'50%',lg:'50%',md:'100%',sm:'100%',xs:'100%'},alignItems:'center',justifyContent:'space-around',borderRadius:'25px'}}>
+             
+             <div className="animate__animated animate__zoomInLeft">
               <Box
-                className="animate__animated animate__zoomInLeft"
+                
                 sx={{
                   alignItems: "center",
                   borderRadius: "20px",
@@ -30,7 +32,7 @@ function Homepage() {
                   }}
                 />
               </Box>
-
+              </div>
               <Box className='animate__animated animate__zoomInRight' gap={3} sx={{
                 margin:'35px 0 35px 0',
                 display:'flex',
