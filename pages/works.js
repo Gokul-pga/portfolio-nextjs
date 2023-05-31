@@ -2,6 +2,8 @@ import React from "react";
 import Layout from '@/components/Layout';
 import { Box, Stack, Typography } from "@mui/material";
 import Image from "next/image";
+import "animate.css";
+
 
 function Works() {
   return (
@@ -32,7 +34,7 @@ function Works() {
               
             />
             <Typography
-              sx={{ fontSize: "50px", fontWeight: "bold", color: "#bfbfbf",fontFamily:'serif' }}
+              sx={{ fontSize:{xl:"50px",lg:"50px",md:"50px",sm:"40px",xs:"40px"}, fontWeight: "bold", color: "#bfbfbf",fontFamily:'serif' }}
             >
               All Projects
             </Typography>

@@ -2,6 +2,8 @@ import React from "react";
 import Layout from '@/components/Layout';
 import { Box, Stack,CardMedia, Typography} from '@mui/material';
 import Image from "next/image";
+import "animate.css";
+
 
 function Homepage() {
   return (

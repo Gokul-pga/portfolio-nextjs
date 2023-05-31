@@ -120,6 +120,7 @@ function About() {
         <Typography>Javascript</Typography>
         <Typography>Material UI</Typography>
         <Typography>React JS</Typography>
+        <Typography>React Native</Typography>
         <Typography>My SQL</Typography>
       </Box>
       </Stack>

@@ -42,7 +42,7 @@ export default function NavBar() {
         <Box sx={{display:{
               xl:"block",
               lg: "block",
-              md: "none",
+              md: "block",
               sm: "none",
               xs: "none"}}}>
           <Typography sx={{ fontSize: "25px", color: "#fff" }}>
@@ -98,7 +98,7 @@ export default function NavBar() {
             })}
           </Stack>
           <Box>
-            <Button  sx={{ backgroundColor: "grey", color: "#fff" }}>
+            <Button  sx={{ backgroundColor: "grey", color: "#fff", }}>
               Lets Talk!
             </Button>
             
