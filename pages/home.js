@@ -8,7 +8,7 @@ function Homepage() {
   return (
     <>
       <Layout>
-        <Stack  margin="30px 60px 0 60px">
+        <Stack  margin="30px 60px 0 60px" height='100vh' >
           <Stack
             gap={3}
             sx={{
