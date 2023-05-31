@@ -20,7 +20,8 @@ function Works() {
               alignItems: "center",
               justifyContent: "center",
               width: "100%",
-              padding: "25px",
+             //bgcolor:'red',
+
             }}
           >
             <Image
@@ -34,9 +35,9 @@ function Works() {
               
             />
             <Typography
-              sx={{ fontSize:{xl:"50px",lg:"50px",md:"50px",sm:"30px",xs:"30px"}, fontWeight: "bold", color: "#bfbfbf",fontFamily:'serif' }}
+              sx={{ fontSize:{xl:"50px",lg:"50px",md:"50px",sm:"35px",xs:"35px"}, fontWeight: "bold", color: "#bfbfbf",fontFamily:'serif' }}
             >
-              All Projects
+               Projects
             </Typography>
             <Image
               alt="image"
@@ -55,12 +56,13 @@ function Works() {
 
           <Stack
             sx={{
-              margin: "0 20px 30px 20px",
+              padding:'10px 0',
               alignItems:'center',
               justifyContent: "space-around",
               flexDirection:{xl:"row",lg:'row',md:'column',sm:'column',xs:'column'},
-              gap:{xl:0,lg:0,md:4,sm:4,xs:4},
-              width:'100%'
+              gap:{xl:0,lg:0,md:3,sm:3,xs:3},
+              width:'100%',
+              //bgcolor:'red'
             }}
           >
             {/* card 1 */}

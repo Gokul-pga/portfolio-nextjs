@@ -16,14 +16,14 @@ function Contact() {
         <Box
           gap={3}
           sx={{
-            width:'100%',
+            //bgcolor:'red',
             height:'100%',
             padding:{
-              xl:"0 0 0 0",
-              lg: "0 0 0 0",
-              md: "20px 0 0 30px",
-              sm: "20px 0 0 30px",
-              xs: "20px 0 0 30px"},
+              xl:"10px 0 10px 0",
+              lg: "10px 0 10px 0",
+              md: "20px 0 10px 30px",
+              sm: "20px 0 10px 30px",
+              xs: "20px 0 10px 30px"},
             display: "flex",
             flexDirection:{xl:"row",lg:'row',md:'column',sm:'column',xs:'column'},
             justifyContent:{xl:'space-around',lg:'space-around',sm:'space-around',md:'space-around',xs:'space-around'}

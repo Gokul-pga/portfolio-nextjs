@@ -32,7 +32,7 @@ const handleClose = () =>{
 
   return (
     <>
-    <Stack direction='column' maxWidth="md" sx={{
+    <Stack direction='column'  sx={{
         display:{
             xl:"none",
             lg: "none",
