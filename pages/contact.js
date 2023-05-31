@@ -118,7 +118,7 @@ function Contact() {
               </Typography>
               <Stack
                 gap={4}
-                sx={{ flexDirection: "row",width:{xl:'300px',lg:'300px',md:'470px',sm:'470px',xs:'470px'},justifyContent:'space-around' }}
+                sx={{ flexDirection: "row",width:{xl:'300px',lg:'300px',md:'300px',sm:'300px',xs:'300px'},justifyContent:'space-around' }}
                 className="animate__animated animate__slideInLeft"
               >
                 <Box sx={{display:'flex',
