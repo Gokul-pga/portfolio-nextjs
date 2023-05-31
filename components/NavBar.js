@@ -84,9 +84,11 @@ export default function NavBar() {
                   }}
                   sx={{
                     color: "#4d4d4d",
+                    transition:'0.3s',
                     "&:hover": {
                       boxShadow: "0px 3px 5px 3px #0099e6",
                       color: "#fff",
+                      scale:'1.2'
                     },
                   }}
                 >

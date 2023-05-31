@@ -1,8 +1,8 @@
 import { Box, CardMedia, Stack, Typography } from '@mui/material'
 import React from 'react'
-import gokul from '@/assests/gokul.jpg'
-import lancer from "@/assests/R.png";
 import Layout from '@/components/Layout';
+import Image from 'next/image';
+import "animate.css";
 
 
 function About() {
@@ -13,12 +13,13 @@ function About() {
     <Box gap={2} sx={{display:'flex', flexDirection:{xl:"row",lg:'row',md:'column',sm:'column',xs:'column'}}}>
 
       <Stack flex={1} >
-      <Box className='animate__animated animate__zoomIn' sx={{backgroundColor:'#262626',alignItems:'center',padding:'30px',borderRadius:'20px'}}> 
-     <CardMedia alt="green iguana" image={gokul} sx={{height:'250px',width:'250px',borderRadius:'15px',padding:'10px'}} />
+      <Box className='animate__animated animate__fadeInLeft' sx={{backgroundColor:'#262626',alignItems:'center',padding:'30px',borderRadius:'20px'}}> 
+     <Image alt="green iguana"                   src={require("../public/gokul.jpg")}
+ width='250' height='270' borderRadius='10' padding='10' />
      </Box>
       </Stack>
 
-      <Stack className='animate__animated animate__zoomIn' flex={3} gap={3} sx={{flexDirection:'column'}} >
+      <Stack  flex={3} gap={3} sx={{flexDirection:'column'}} >
       <Box
             className="animate__animated animate__flipInY"
             gap={3}
@@ -30,34 +31,34 @@ function About() {
               width: "100%",
             }}
           >
-      <CardMedia
+      <Image
               alt="image"
-              image={lancer}
+              src={require("../public/R.png")}
+              height= "60"
+              width= "60"
               sx={{
-                height: "60px",
-                width: "60px",
                 borderRadius: "15px",
                 padding: "10px",
                 color: "#fff",
               }}
             />
             <Typography
-              sx={{ fontSize:{xl:'80px',lg:'80px',md:'50px',sm:'50px',xs:'50px'}, fontWeight: "bold", color: "#bfbfbf" }}
+              sx={{ fontSize:{xl:'70px',lg:'70px',md:'50px',sm:'50px',xs:'50px'}, fontWeight: "bold", color: "#bfbfbf" }}
             >
               SELF-SUMMARY
             </Typography>
-            <CardMedia
+            <Image
               alt="image"
-              image={lancer}
+              src={require("../public/R.png")}
+              height= "60"
+              width= "60"
               sx={{
-                height: "60px",
-                width: "60px",
                 borderRadius: "15px",
                 padding: "10px",
               }}
             />
           </Box>
-        <Box  sx={{backgroundColor:'#262626',padding:'20px',borderRadius:'20px',border:'1px #595959 solid',color:'#fff'}}>
+        <Box className="animate__animated animate__fadeInRight"  sx={{backgroundColor:'#262626',padding:'20px',borderRadius:'20px',border:'1px #595959 solid',color:'#fff'}}>
           <Typography sx={{fontWeight:'bold',fontSize:'30px'}}>Gokulanand P</Typography>
           <Typography sx={{fontSize:'25px',color:' #a6a6a6'}}>B.E - Mechatronics Engineering</Typography>
           <Typography sx={{fontSize:'20px',color:' #a6a6a6'}}>I am a San francisco-based product designer with a focus on web design, illustration, a visual development. I have a diverse range of experience having worked across various fields and industries.</Typography>

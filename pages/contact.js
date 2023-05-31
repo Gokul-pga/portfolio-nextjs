@@ -1,12 +1,12 @@
 import React from "react";
 import Layout from '@/components/Layout';
-import {Box,Button,CardMedia,Stack,TextField,Typography,} from "@mui/material";
-import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
-import LocalPhoneOutlinedIcon from "@mui/icons-material/LocalPhoneOutlined";
-import RoomOutlinedIcon from "@mui/icons-material/RoomOutlined";
-import whatsapp from "@/assests/whatsapp.png";
-import github from "@/assests/github.png";
-import instagram from "@/assests/instagram.png";
+import {Box,Button,Stack,TextField,Typography,} from "@mui/material";
+import { BsWhatsapp } from 'react-icons/bs';
+import { BsInstagram } from 'react-icons/bs';
+import { SiLinkedin } from 'react-icons/si';
+import { BsTelephoneInbound } from 'react-icons/bs';
+import { GoLocation } from 'react-icons/go';
+import { MdOutlineMailOutline } from 'react-icons/md';
 
 function Contact() {
   return (
@@ -36,16 +36,18 @@ function Contact() {
               className="animate__animated animate__slideInLeft"
             >
               <Stack gap={2} sx={{ flexDirection: "row" }}>
-                <EmailOutlinedIcon
-                  sx={{
-                    color: "#fff",
-                    fontSize: "29px",
-                    backgroundImage:
-                      "linear-gradient(to right bottom,#333333,#1a1a1a)",
-                    padding: "20px",
-                    borderRadius: "10px",
-                  }}
-                />
+              <Box sx={{display:'flex',
+                flexDirection:'column',
+                    fontSize:'35px',
+                    alignItems:'center',
+                    justifyContent:'center',
+                    // bgcolor:'grey',
+                    gap:1,
+                    padding:'10px 15px',
+                    color:'#fff'
+                  }}>
+                <MdOutlineMailOutline/>
+                </Box>
                 <Box sx={{ color: "#fff" }}>
                   <Typography color="#4d4d4d" fontWeight="bold">
                     MAIL US
@@ -58,16 +60,18 @@ function Contact() {
 
               {/* start stack 2 */}
               <Stack gap={2} sx={{ flexDirection: "row" }}>
-                <LocalPhoneOutlinedIcon
-                  sx={{
-                    color: "#fff",
-                    fontSize: "29px",
-                    backgroundImage:
-                      "linear-gradient(to right bottom,#333333,#1a1a1a)",
-                    padding: "20px",
-                    borderRadius: "10px",
-                  }}
-                />
+              <Box sx={{display:'flex',
+                flexDirection:'column',
+                    fontSize:'35px',
+                    alignItems:'center',
+                    justifyContent:'center',
+                    // bgcolor:'grey',
+                    gap:1,
+                    padding:'10px 15px',
+                    color:'#fff'
+                  }}>
+                <BsTelephoneInbound/>
+                </Box>
                 <Box sx={{ color: "#fff" }}>
                   <Typography color="#4d4d4d" fontWeight="bold">
                     CONTACT US
@@ -80,15 +84,18 @@ function Contact() {
 
               {/* start stack 3 */}
               <Stack gap={2} sx={{ flexDirection: "row" }}>
-                <RoomOutlinedIcon
-                  sx={{
-                    color: "#fff",
-                    fontSize: "29px",
-                    backgroundImage:"linear-gradient(to right bottom,#333333,#1a1a1a)",
-                    padding: "20px",
-                    borderRadius: "10px",
-                  }}
-                />
+                <Box sx={{display:'flex',
+                flexDirection:'column',
+                    fontSize:'35px',
+                    alignItems:'center',
+                    justifyContent:'center',
+                    // bgcolor:'grey',
+                    gap:1,
+                    padding:'10px 15px',
+                    color:'#fff'
+                  }}>
+                <GoLocation/>
+                </Box>
                 <Box sx={{ color: "#fff" }}>
                   <Typography color="#4d4d4d" fontWeight="bold">
                     LOCATION
@@ -110,36 +117,51 @@ function Contact() {
               </Typography>
               <Stack
                 gap={4}
-                sx={{ flexDirection: "row",width:{xl:'300px',lg:'300px',md:'550px',sm:'550px',xs:'550px'},justifyContent:'space-around' }}
+                sx={{ flexDirection: "row",width:{xl:'300px',lg:'300px',md:'470px',sm:'470px',xs:'470px'},justifyContent:'space-around' }}
                 className="animate__animated animate__slideInLeft"
               >
-                <CardMedia
-                  image={whatsapp}
-                  sx={{
-                    height: "50px",
-                    width: "50px",
-                    backgroundColor: "#fff",
-                    borderRadius: "50px",
-                  }}
-                />
-                <CardMedia
-                  image={github}
-                  sx={{
-                    height: "50px",
-                    width: "50px",
-                    backgroundColor: "#fff",
-                    borderRadius: "50px",
-                  }}
-                />
-                <CardMedia
-                  image={instagram}
-                  sx={{
-                    height: "50px",
-                    width: "50px",
-                    backgroundColor: "#fff",
-                    borderRadius: "50px",
-                  }}
-                />
+                <Box sx={{display:'flex',
+                flexDirection:'column',
+                    fontSize:'35px',
+                    alignItems:'center',
+                    justifyContent:'center',
+                    // bgcolor:'grey',
+                    gap:1,
+                    padding:'10px 15px',
+                    color:'#fff'
+                  }}>
+                  <BsWhatsapp/>
+                  <Typography>Whatsapp</Typography>
+                </Box>
+
+                <Box sx={{display:'flex',
+                flexDirection:'column',
+                    fontSize:'35px',
+                    alignItems:'center',
+                    justifyContent:'center',
+                    // bgcolor:'grey',
+                    gap:1,
+                    padding:'10px 15px',
+                    color:'#fff'
+                  }}>
+                  <BsInstagram/>
+                  <Typography>Instagram</Typography>
+                </Box>
+
+                <Box sx={{display:'flex',
+                flexDirection:'column',
+                    fontSize:'35px',
+                    alignItems:'center',
+                    justifyContent:'center',
+                    // bgcolor:'grey',
+                    gap:1,
+                    padding:'10px 15px',
+                    color:'#fff'
+                  }}>
+                  <SiLinkedin/>
+                  <Typography>Linkedin</Typography>
+                </Box>
+               
               </Stack>
             </Stack>
             {/* Social Info end */}
@@ -158,7 +180,8 @@ function Contact() {
               sx={{
                 display: "flex",
                 flexDirection: "row",
-                fontSize: "35px",
+                fontSize: "30px",
+                fontSize:{xl:"30px",lg:"30px",md:"30px",sm:"25px",xs:"25px"},
                 fontWeight: "bold",
                 textAlign: "center",
                 width: "100%",

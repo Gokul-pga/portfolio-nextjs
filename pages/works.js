@@ -1,9 +1,7 @@
 import React from "react";
 import Layout from '@/components/Layout';
-import { Box, CardMedia, Stack, Typography } from "@mui/material";
-import lancer from "@/assests/R.png";
-import todolist from "@/assests/checklist.jpeg";
-import shopping from "@/assests/shopping.jpeg";
+import { Box, Stack, Typography } from "@mui/material";
+import Image from "next/image";
 
 function Works() {
   return (
@@ -23,31 +21,30 @@ function Works() {
               padding: "25px",
             }}
           >
-            <CardMedia
+            <Image
               alt="image"
-              image={lancer}
-              sx={{
-                height: "40px",
-                width: "40px",
-                borderRadius: "15px",
-                padding: "10px",
-                color: "#fff",
-              }}
+              src={require("../public/R.png")}
+              height= "60"
+              width= "70"
+                borderRadius= "15"
+                padding= "10"
+                color= "#fff"
+              
             />
             <Typography
-              sx={{ fontSize: "40px", fontWeight: "bold", color: "#bfbfbf" }}
+              sx={{ fontSize: "50px", fontWeight: "bold", color: "#bfbfbf",fontFamily:'serif' }}
             >
-              All projects
+              All Projects
             </Typography>
-            <CardMedia
+            <Image
               alt="image"
-              image={lancer}
-              sx={{
-                height: "40px",
-                width: "40px",
-                borderRadius: "15px",
-                padding: "10px",
-              }}
+              src={require("../public/R.png")}
+                height= "60"
+                width= "70"
+                borderRadius= "15"
+                padding= "10"
+                color= "#fff"
+                
             />
           </Box>
           {/* end stack 1 */}
@@ -69,29 +66,34 @@ function Works() {
               className="animate__animated animate__zoomIn"
               gap={2}
               sx={{
+                gap:3,
                 display: "flex",
                 flexDirection: "column",
-                height: "250px",
+                height: "290px",
                 width: "300px",
                 alignItems: "center",
                 padding: "10px",
                 borderRadius: "30px",
                 border: "2px #666666 solid",
+                justifyContent:'space-between',
+                transition:'0.3s',
                 "&:hover":{
                     boxShadow:'0px 5px 8px 0px #0099e6',
-                    elevation:20
+                    elevation:20,
+                    scale:'1.1'
                 }
               }}
             >
-              <CardMedia
-                image={todolist}
-                sx={{
-                  height: "250px",
-                  width: "250px",
-                  borderRadius: "15px",
-                  padding: "10px",
-                }}
+              <Box  
+                  borderRadius= "15"
+                  padding= "10"   
+                  marginTop="10px">
+              <Image
+              src={require("../public/checklist.jpeg")}
+              height= "150"
+              width= "250"
               />
+              </Box>
               <Typography sx={{ fontSize: "20px", color: "#bfbfbf" }}>
                 Web Developement
               </Typography>
@@ -105,29 +107,33 @@ function Works() {
               className="animate__animated animate__zoomIn"
               gap={2}
               sx={{
+                gap:2,
                 display: "flex",
                 flexDirection: "column",
-                height: "250px",
+                height: "290px",
                 width: "300px",
                 alignItems: "center",
                 padding: "10px",
                 borderRadius: "30px",
                 border: "2px #666666 solid",
+                transition:'0.3s',
                 "&:hover":{
-                    boxShadow:'0px 5px 8px 0px #0099e6'
-                    
+                    boxShadow:'0px 5px 8px 0px #0099e6',
+                    elevation:20,
+                    scale:'1.1'
                 }
               }}
             >
-              <CardMedia
-                image={shopping}
-                sx={{
-                  height: "250px",
-                  width: "250px",
-                  borderRadius: "15px",
-                  padding: "10px",
-                }}
+               <Box  
+                  borderRadius= "15"
+                  padding= "10"   
+                  marginTop="10px">
+              <Image
+              src={require("../public/shopping.jpeg")}
+              height= "150"
+              width= "250"
               />
+              </Box>
               <Typography sx={{ fontSize: "20px", color: "#bfbfbf" }}>
                 Web Developement
               </Typography>
@@ -143,27 +149,30 @@ function Works() {
               sx={{
                 display: "flex",
                 flexDirection: "column",
-                height: "250px",
+                height: "290px",
                 width: "300px",
                 alignItems: "center",
                 padding: "10px",
                 borderRadius: "30px",
                 border: "2px #666666 solid",
-                // transition: 2s,
+                transition:'0.3s',
                 "&:hover":{
                     boxShadow:'0px 5px 8px 0px #0099e6',
+                    elevation:20,
+                    scale:'1.1'
                 }
               }}
             >
-              <CardMedia
-                image={todolist}
-                sx={{
-                  height: "250px",
-                  width: "250px",
-                  borderRadius: "15px",
-                  padding: "10px",
-                }}
+               <Box  
+                  borderRadius= "15"
+                  padding= "10"   
+                  marginTop="10px">
+              <Image
+              src={require("../public/checklist.jpeg")}
+              height= "150"
+              width= "250"
               />
+              </Box>
               <Typography sx={{ fontSize: "20px", color: "#bfbfbf" }}>
                 Web Developement
               </Typography>
