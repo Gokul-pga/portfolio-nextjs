@@ -63,7 +63,7 @@ const handleClose = () =>{
             sm: "block",
             xs: "block"},
             }}>
-          <Typography sx={{ fontSize: "35px", color: "#fff",  }}>
+          <Typography sx={{ fontSize: "25px", color: "#fff",  }}>
             PortFolio
           </Typography>
         </Box>
@@ -76,14 +76,14 @@ const handleClose = () =>{
                 sm: "block",
                 xs: "block"},
             color:'#fff',
-            fontSize:'35px',
+            fontSize:'25px',
         }}
         onClick={() => {setOpen((p) => !p)}}>
         <AiOutlineMenu/>
         </Box>
     </Stack>
 
-       { open && <Box onClose={handleClose} className="animate__animated animate__fadeInRight" on  sx={{
+       { open && <Box onClose={handleClose} className="animate__animated animate__bounceIn" on  sx={{
                 display:'flex',
                 flexDirection:'column',
                 color:'#fff',
@@ -93,7 +93,7 @@ const handleClose = () =>{
                 zIndex:'1000',
                 backgroundColor: "#0d0d0d",
                 borderRadius:'0 0 10px 10px',
-                padding: "43px 0 10px 0"
+                padding: "45px 0 10px 0"
             }}>
                 {NavArray.map((item, index) => {
               return (
