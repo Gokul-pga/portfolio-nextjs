@@ -6,9 +6,6 @@ import { useRouter } from 'next/router'
 export default function NavBar() {
   const router =useRouter()
 
-
-  
-
   const NavArray = [
     {
       title: "Home",
@@ -53,7 +50,7 @@ export default function NavBar() {
 <Box  sx={{display:{
             xl:"block",
             lg: "block",
-            md: "none",
+            md: "block",
             sm: "none",
             xs: "none"},
             width: "70%",
