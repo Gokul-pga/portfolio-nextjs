@@ -9,7 +9,7 @@ function About() {
   return (
     <>
     <Layout>    {/* start stack 1 */}
-    <Stack flex={1} gap={3} margin='30px 60px 0 60px'>
+    <Stack flex={1} gap={3} padding='30px 60px 0 60px'>
     <Box gap={2} sx={{display:'flex', flexDirection:{xl:"row",lg:'row',md:'column',sm:'column',xs:'column'}}}>
 
       <Stack flex={1} >
@@ -43,7 +43,7 @@ function About() {
               }}
             />
             <Typography
-              sx={{ fontSize:{xl:'70px',lg:'70px',md:'50px',sm:'50px',xs:'50px'}, fontWeight: "bold", color: "#bfbfbf" }}
+              sx={{ fontSize:{xl:'70px',lg:'70px',md:'70px',sm:'35px',xs:'35px'}, fontWeight: "bold", color: "#bfbfbf" }}
             >
               SELF-SUMMARY
             </Typography>

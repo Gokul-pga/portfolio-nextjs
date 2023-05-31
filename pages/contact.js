@@ -16,7 +16,14 @@ function Contact() {
         <Box
           gap={3}
           sx={{
-            margin:{xl:"30px 60px 0 60px",lg:"30px 60px 0 60px",md:"30px 60px 0 60px",sm:"30px 60px 0 60px",xs:"30px 60px 0 60px"},
+            width:'100%',
+            height:'100%',
+            padding:{
+              xl:"0 0 0 0",
+              lg: "0 0 0 0",
+              md: "20px 0 0 30px",
+              sm: "20px 0 0 30px",
+              xs: "20px 0 0 30px"},
             display: "flex",
             flexDirection:{xl:"row",lg:'row',md:'column',sm:'column',xs:'column'},
             justifyContent:{xl:'space-around',lg:'space-around',sm:'space-around',md:'space-around',xs:'space-around'}
@@ -171,7 +178,7 @@ function Contact() {
           <Stack
           className="animate__animated animate__bounceInRight"
             sx={{
-              width:{xl:"600px",lg:"600px",md:'100%',sm:'100%',xs:'100%'},
+              width:{xl:"600px",lg:"600px",md:'90%',sm:'90%',xs:'90%'},
               backgroundImage:"linear-gradient(to right bottom,#1a1a1a,#4d4d4d)",
               color: "#6699ff",
               borderRadius: "20px",
