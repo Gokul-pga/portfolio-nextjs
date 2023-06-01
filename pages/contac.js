@@ -7,6 +7,8 @@ import { SiLinkedin } from "react-icons/si";
 import { BsTelephoneInbound } from "react-icons/bs";
 import { GoLocation } from "react-icons/go";
 import { MdOutlineMailOutline } from "react-icons/md";
+import "animate.css";
+
 
 function contac() {
   const [inputdata, setInputdata] = useState({
