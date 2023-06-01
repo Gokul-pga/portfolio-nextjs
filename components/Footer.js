@@ -20,7 +20,7 @@ function Footer() {
     },
     {
       title: "Contact",
-      to: "/contact",
+      to: "/contac",
     },
   ];
 

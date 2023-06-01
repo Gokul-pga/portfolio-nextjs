@@ -38,7 +38,7 @@ function contac() {
       <Layout>
         <Stack
           sx={{
-            //bgcolor:'red',
+           //bgcolor:'red',
 
             display: "flex",
             width: "100%",
@@ -55,14 +55,15 @@ function contac() {
           <Box
             gap={3}
             sx={{
+              //bgcolor:'yellow',
               display: "flex",
               flexDirection: "column",
               padding: {
                 xl: "10px 0 10px 0",
                 lg: "10px 0 10px 0",
-                md: "20px 0 10px 30px",
-                sm: "20px 0 10px 30px",
-                xs: "20px 0 10px 30px",
+                md: "20px 0 10px 20px",
+                sm: "20px 0 10px 20px",
+                xs: "20px 0 10px 20px",
               },
             }}
           >
@@ -255,9 +256,9 @@ function contac() {
               margin: {
                 xl: "10px 0 10px 0",
                 lg: "10px 0 10px 0",
-                md: "20px 0 10px 30px",
-                sm: "20px 0 10px 30px",
-                xs: "20px 0 10px 30px",
+                md: "20px 0 10px 20px",
+                sm: "20px 0 10px 20px",
+                xs: "20px 0 10px 20px",
               },
             }}
           >
