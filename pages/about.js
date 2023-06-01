@@ -74,11 +74,12 @@ function About() {
                       xl: "70px",
                       lg: "70px",
                       md: "70px",
-                      sm: "35px",
-                      xs: "35px",
+                      sm: "30px",
+                      xs: "30px",
                     },
                     fontWeight: "bold",
                     color: "#bfbfbf",
+                    fontFamily:'serif'
                   }}
                 >
                   SELF-SUMMARY
@@ -104,10 +105,10 @@ function About() {
                   color: "#fff",
                 }}
               >
-                <Typography sx={{ fontWeight: "bold", fontSize: "30px" }}>
+                <Typography sx={{ fontWeight: "bold", fontSize: "25px" }}>
                   Gokulanand P
                 </Typography>
-                <Typography sx={{ fontSize: "25px", color: " #a6a6a6" }}>
+                <Typography sx={{ fontSize: "20px", color: " #a6a6a6" }}>
                   B.E - Mechatronics Engineering
                 </Typography>
                 <Typography sx={{ fontSize: "20px", color: " #a6a6a6" }}>
