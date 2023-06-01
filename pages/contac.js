@@ -41,7 +41,7 @@ function contac() {
            //bgcolor:'red',
 
             display: "flex",
-            width: "100%",
+            width: "98%",
             flexDirection: {
               xl: "row",
               lg: "row",
@@ -181,6 +181,7 @@ function contac() {
                     xs: "300px",
                   },
                   justifyContent: "space-around",
+                  padding:'0 0 0 20px'
                 }}
                 className="animate__animated animate__slideInLeft"
               >
@@ -250,7 +251,7 @@ function contac() {
                 xs: "90%",
               },
               backgroundImage:
-                "linear-gradient(to right bottom,#f2f2f2,#cccccc)",
+                "linear-gradient(to right bottom,#d9d9d9,#cccccc)",
               color: "#6699ff",
               borderRadius: "20px",
               margin: {
@@ -264,6 +265,7 @@ function contac() {
           >
             <Typography
               sx={{
+                //bgcolor:'yellowgreen',
                 display: "flex",
                 flexDirection: "row",
                 fontSize: "30px",
@@ -276,7 +278,7 @@ function contac() {
                 },
                 fontWeight: "bold",
                 textAlign: "center",
-                width: "100%",
+                width: "90%",
                 padding: "20px",
                 color: "#000000",
               }}
