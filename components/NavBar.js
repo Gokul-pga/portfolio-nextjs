@@ -95,7 +95,7 @@ export default function NavBar() {
             })}
           </Stack>
           <Box>
-            <Button  sx={{ backgroundColor: "grey", color: "#fff", }}>
+            <Button  sx={{ backgroundColor: "grey", color: "#fff", }} onClick={() =>{router.push("contac/")}}>
               Lets Talk!
             </Button>
             

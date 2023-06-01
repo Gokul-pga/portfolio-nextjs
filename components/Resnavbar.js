@@ -26,7 +26,7 @@ const handleClose = () =>{
     },
     {
       title: "Contact",
-      to: "/contact",
+      to: "/contac",
     },
   ];
 
@@ -83,7 +83,7 @@ const handleClose = () =>{
         </Box>
     </Stack>
 
-       { open && <Box onClose={handleClose} className="animate__animated animate__bounceIn" on  sx={{
+       { open && <Box  className="animate__animated animate__bounceIn" on  sx={{
                 display:'flex',
                 flexDirection:'column',
                 color:'#fff',
@@ -122,7 +122,8 @@ const handleClose = () =>{
                     lg: "none",
                     md: "none",
                     sm: "block",
-                    xs: "block"},}}>
+                    xs: "block"},}} 
+                    onClick={() =>{router.push("contac/")}}>
               Lets Talk!
             </Button>
             
