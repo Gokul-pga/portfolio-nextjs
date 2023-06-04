@@ -5,6 +5,7 @@ import { useRouter } from 'next/router'
 
 export default function NavBar() {
   const router =useRouter()
+  const location = router.pathname
 
   const NavArray = [
     {
@@ -21,7 +22,7 @@ export default function NavBar() {
     },
     {
       title: "Contact",
-      to: "/contact",
+      to: "/contac",
     },
   ];
 
@@ -80,11 +81,11 @@ export default function NavBar() {
                     router.push(item.to)
                   }}
                   sx={{
-                    color: "#4d4d4d",
+                    color: location == item.to ?  "#fff" : "#4d4d4d" ,
                     transition:'0.3s',
                     "&:hover": {
                       boxShadow: "0px 3px 5px 3px #0099e6",
-                      color: "#fff",
+                      color:  "#fff" ,
                       scale:'1.2'
                     },
                   }}

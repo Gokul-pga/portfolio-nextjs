@@ -263,6 +263,7 @@ function contac() {
                 sm: "20px 0 10px 20px",
                 xs: "20px 0 10px 20px",
               },
+              justifyContent:'space-around'
             }}
           >
             <Typography
@@ -294,7 +295,7 @@ function contac() {
               </Typography>
             )}
             <Box
-              gap={2}
+              gap={3}
               sx={{
                 display: "flex",
                 flexDirection: "column",
@@ -333,6 +334,16 @@ function contac() {
               />
               <Button
                 variant="contained"
+              sx={{
+                borderRadius: "0px",
+                textAlign: "center",
+                transition:'0.3s',
+                "&:hover":{
+                    backgroundColor:'#fff',
+                    color:'black',
+                    borderRadius: "10px",
+                }
+              }}
                 onClick={() => {
                   Handlesubmit();
                 }}

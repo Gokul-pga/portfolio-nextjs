@@ -6,10 +6,9 @@ import { AiOutlineMenu } from 'react-icons/ai';
 function Resnavbar() {
 
 const router =useRouter()
+const location = router.pathname;
 const [open, setOpen] = useState(false)
-const handleClose = () =>{
-    setOpen(false)
-}
+
 
   const NavArray = [
     {
@@ -108,7 +107,8 @@ const handleClose = () =>{
                     md: "none",
                     sm: "block",
                     xs: "block"},
-                    color: "#fff",
+                    color: location == item.to ? "#fff" : "#4d4d4d",
+                    fontWeight: location == item.to ? "bold" : "100",
                    fontSize:'16px'
                   }}
                 >

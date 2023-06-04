@@ -70,16 +70,15 @@ function Works() {
               className="animate__animated animate__zoomIn"
               gap={2}
               sx={{
-                gap:3,
+                gap:2,
                 display: "flex",
                 flexDirection: "column",
                 height: "290px",
                 width: "300px",
                 alignItems: "center",
                 padding: "10px",
-                borderRadius: "30px",
+                borderRadius:"5px 5px 25px 25px",
                 border: "2px #666666 solid",
-                justifyContent:'space-between',
                 transition:'0.3s',
                 "&:hover":{
                     boxShadow:'0px 5px 8px 0px #0099e6',
@@ -96,6 +95,9 @@ function Works() {
               src={require("../public/checklist.jpeg")}
               height= "150"
               width= "250"
+               style={{
+                  borderRadius:"15px"
+                }}
               />
               </Box>
               <Typography sx={{ fontSize: "20px", color: "#bfbfbf" }}>
@@ -118,7 +120,7 @@ function Works() {
                 width: "300px",
                 alignItems: "center",
                 padding: "10px",
-                borderRadius: "30px",
+                borderRadius:"5px 5px 25px 25px",
                 border: "2px #666666 solid",
                 transition:'0.3s',
                 "&:hover":{
@@ -136,6 +138,9 @@ function Works() {
               src={require("../public/shopping.jpeg")}
               height= "150"
               width= "250"
+              style={{
+                borderRadius:"15px"
+              }}
               />
               </Box>
               <Typography sx={{ fontSize: "20px", color: "#bfbfbf" }}>
@@ -157,7 +162,7 @@ function Works() {
                 width: "300px",
                 alignItems: "center",
                 padding: "10px",
-                borderRadius: "30px",
+                borderRadius:"5px 5px 25px 25px",
                 border: "2px #666666 solid",
                 transition:'0.3s',
                 "&:hover":{
@@ -175,6 +180,9 @@ function Works() {
               src={require("../public/checklist.jpeg")}
               height= "150"
               width= "250"
+              style={{
+                borderRadius:"15px"
+              }}
               />
               </Box>
               <Typography sx={{ fontSize: "20px", color: "#bfbfbf" }}>
