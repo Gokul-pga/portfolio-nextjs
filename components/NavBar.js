@@ -43,7 +43,7 @@ export default function NavBar() {
               md: "block",
               sm: "none",
               xs: "none"}}}>
-          <Typography sx={{ fontSize: "25px", color: "#fff",cursor:"pointer" }} onClick={() => {router.push("/")}}>
+          <Typography  className="portfoliolineargradient" sx={{ fontSize: "25px", color: "#fff",cursor:"pointer" }} onClick={() => {router.push("/")}}>
             PortFolio
           </Typography>
         </Box>

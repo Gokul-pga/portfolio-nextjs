@@ -201,7 +201,7 @@ function contac() {
                   }}
                 >
                   <BsWhatsapp />
-                  <Typography>Whatsapp</Typography>
+                  <Typography><a target="_blank" style={{color:"#fff", textDecoration:"none",}} href="https://web.whatsapp.com/">Whatsapp</a></Typography>
                 </Box>
 
                 <Box
@@ -218,7 +218,7 @@ function contac() {
                   }}
                 >
                   <BsInstagram />
-                  <Typography>Instagram</Typography>
+                  <Typography><a target="_blank" style={{color:"#fff", textDecoration:"none",}} href="https://www.instagram.com/accounts/login/">Instagram</a></Typography>
                 </Box>
 
                 <Box
@@ -235,7 +235,7 @@ function contac() {
                   }}
                 >
                   <SiLinkedin />
-                  <Typography>Linkedin</Typography>
+                  <Typography><a target="_blank" style={{color:"#fff", textDecoration:"none",}} href="https://www.linkedin.com/uas/login-submit">Linkedin</a></Typography>
                 </Box>
               </Stack>
             </Stack>

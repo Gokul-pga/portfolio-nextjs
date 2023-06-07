@@ -62,7 +62,7 @@ const [open, setOpen] = useState(false)
             sm: "block",
             xs: "block"},
             }}>
-          <Typography sx={{ fontSize: "25px", color: "#fff",  }}>
+          <Typography  className="portfoliolineargradient" sx={{ fontSize: "25px", color: "#fff",  }}>
             PortFolio
           </Typography>
         </Box>
@@ -117,7 +117,7 @@ const [open, setOpen] = useState(false)
               );
             })}
             <Box>
-            <Button  sx={{ backgroundColor: "grey", color: "#fff", padding:'5px 15px', display:{
+            <Button   sx={{ backgroundColor: "grey", color: "#fff", padding:'5px 15px', display:{
                     xl:"none",
                     lg: "none",
                     md: "none",

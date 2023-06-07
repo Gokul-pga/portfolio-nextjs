@@ -48,7 +48,7 @@ function Footer() {
   return (
     <>
       <Stack sx={{ flexDirection: "column", width: "100%", mt: "50px" }}>
-        <Box
+        <Box  className="portfoliolineargradient"
           sx={{
             display: "flex",
             flexDirection: "row",
@@ -58,7 +58,7 @@ function Footer() {
             fontSize: "20px",
           }}
         >
-          GokulAnand
+          GOKULANAND
         </Box>
         <Box
           sx={{

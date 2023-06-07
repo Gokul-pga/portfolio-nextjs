@@ -87,7 +87,7 @@ function About() {
                     color: "#fff",
                   }}
                 />
-                <Typography
+                <Typography  className="portfoliolineargradient"
                   sx={{
                     fontSize: {
                       xl: "70px",
