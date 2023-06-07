@@ -78,7 +78,8 @@ function Works() {
                 alignItems: "center",
                 padding: "10px",
                 borderRadius:"5px 5px 25px 25px",
-                border: "2px #666666 solid",
+                border: "2px #fff solid",
+                bgcolor:"#262626",
                 transition:'0.3s',
                 "&:hover":{
                     boxShadow:'0px 5px 8px 0px #0099e6',
@@ -104,7 +105,7 @@ function Works() {
                 Web Developement
               </Typography>
               <Typography sx={{ fontSize: "20px", color: "#fff", }}>
-               <a style={{color:"#fff", textDecoration:"none",}} href="https://lucky-six.vercel.app/">Project Center Website</a>   
+               <a target="_blank" style={{color:"#fff", textDecoration:"none",}} href="https://lucky-six.vercel.app/">Project Center Website</a>   
               </Typography>
             </Box>
 
@@ -121,7 +122,8 @@ function Works() {
                 alignItems: "center",
                 padding: "10px",
                 borderRadius:"5px 5px 25px 25px",
-                border: "2px #666666 solid",
+                border: "2px #fff solid",
+                bgcolor:"#262626",
                 transition:'0.3s',
                 "&:hover":{
                     boxShadow:'0px 5px 8px 0px #0099e6',
@@ -147,7 +149,7 @@ function Works() {
                 Web Developement
               </Typography>
               <Typography sx={{ fontSize: "20px", color: "#fff", }}>
-               <a style={{color:"#fff", textDecoration:"none",}} href="https://shoping-todolist-auth.vercel.app/Loginpage">Shopping Website</a>   
+               <a target="_blank" style={{color:"#fff", textDecoration:"none",}} href="https://shoping-todolist-auth.vercel.app/Loginpage">Shopping Website</a>   
               </Typography>
             </Box>
 
@@ -163,7 +165,8 @@ function Works() {
                 alignItems: "center",
                 padding: "10px",
                 borderRadius:"5px 5px 25px 25px",
-                border: "2px #666666 solid",
+                border: "2px #fff solid",
+                bgcolor:"#262626",
                 transition:'0.3s',
                 "&:hover":{
                     boxShadow:'0px 5px 8px 0px #0099e6',
@@ -189,7 +192,7 @@ function Works() {
                 Web Developement
               </Typography>
               <Typography sx={{ fontSize: "20px", color: "#fff", }}>
-               <a style={{color:"#fff", textDecoration:"none",}} href="https://checklist-lime-gamma.vercel.app/">To-Do-List</a>   
+               <a target="_blank" style={{color:"#fff", textDecoration:"none",}} href="https://checklist-lime-gamma.vercel.app/">To-Do-List</a>   
               </Typography>
             </Box>
           </Stack>

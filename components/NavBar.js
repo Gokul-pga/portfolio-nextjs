@@ -43,7 +43,7 @@ export default function NavBar() {
               md: "block",
               sm: "none",
               xs: "none"}}}>
-          <Typography sx={{ fontSize: "25px", color: "#fff" }}>
+          <Typography sx={{ fontSize: "25px", color: "#fff",cursor:"pointer" }} onClick={() => {router.push("/")}}>
             PortFolio
           </Typography>
         </Box>
@@ -96,7 +96,7 @@ export default function NavBar() {
             })}
           </Stack>
           <Box>
-            <Button  sx={{ backgroundColor: "grey", color: "#fff", }} onClick={() =>{router.push("contac/")}}>
+            <Button  sx={{ backgroundColor: "grey", color: "#fff",transition:"0.3s","&:hover":{bgcolor:'#1a1a1a'} }} onClick={() =>{router.push("contac/")}}>
               Lets Talk!
             </Button>
             

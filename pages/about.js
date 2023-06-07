@@ -10,7 +10,16 @@ function About() {
       <Layout>
         {" "}
         {/* start stack 1 */}
-        <Stack flex={1} gap={3} padding="30px 60px 0 60px">
+        <Stack flex={1} gap={3}
+         sx={{
+          padding:{
+            xl: "30px 60px 0 60px",
+            lg: "30px 60px 0 60px",
+            md: "30px 20px 0 20px",
+            sm: "30px 20px 0 20px",
+            xs: "30px 20px 0 20px",
+          }
+        }}>
           <Box
             gap={2}
             sx={{
@@ -24,14 +33,22 @@ function About() {
               },
             }}
           >
-            <Stack flex={1}>
+            <Stack flex={1} sx={{
+               width:
+               {
+                md: '100%',
+                sm: '100%',
+                xs: '100%',
+              },
+              alignItems:'center'
+            }}>
               <Box
                 className="animate__animated animate__fadeInLeft"
                 sx={{
-                  backgroundColor: "#262626",
                   alignItems: "center",
                   padding: "30px",
                   borderRadius: "20px",
+                 
                 }}
               >
                 <Image
@@ -39,9 +56,11 @@ function About() {
                   src={require("../public/gokul.jpg")}
                   width="250"
                   height="270"
-                  borderRadius="10"
-                  padding="10"
-                />
+                 style={{
+                  borderRadius:"10px",
+                  alignItems:'center'
+                 }}               
+                  />
               </Box>
             </Stack>
 
@@ -111,11 +130,8 @@ function About() {
                 <Typography sx={{ fontSize: "20px", color: " #a6a6a6" }}>
                   B.E - Mechatronics Engineering
                 </Typography>
-                <Typography sx={{ fontSize: "20px", color: " #a6a6a6" }}>
-                  I am a San francisco-based product designer with a focus on
-                  web design, illustration, a visual development. I have a
-                  diverse range of experience having worked across various
-                  fields and industries.
+                <Typography sx={{ fontSize: "16px", color: " #a6a6a6" }}>
+                As a web designer, my objective is to make a positive impact on clients, co-workers, and the Internet using my skills and experience to design compelling and attractive websites. Solving code problems. Editing & Design with designing team in the company to build perfect web designs.
                 </Typography>
               </Box>
             </Stack>
@@ -246,8 +262,12 @@ function About() {
                 <Typography>Javascript</Typography>
                 <Typography>Material UI</Typography>
                 <Typography>React JS</Typography>
+                <Typography>Next JS</Typography>
                 <Typography>React Native</Typography>
-                <Typography>My SQL</Typography>
+                <Typography>MongoDB</Typography>
+                <Typography>JSON</Typography>
+                <Typography>Rest API</Typography>
+                <Typography>Node JS</Typography>
               </Box>
             </Stack>
 
