@@ -45,9 +45,8 @@ function Homepage() {
                   src={require("../public/gokul.jpg")}
                   height="280"
                   width="250"
-                  borderRadius="15"
-                  border="3px #4d4d4d solid"
-                  padding="10"
+                  style={{borderRadius:"10px"
+                }}
                 />
               </Box>
             </div>

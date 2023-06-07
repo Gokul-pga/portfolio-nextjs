@@ -83,7 +83,7 @@ function Works() {
                 "&:hover":{
                     boxShadow:'0px 5px 8px 0px #0099e6',
                     elevation:20,
-                    scale:'1.1'
+                    scale:'1.05'
                 }
               }}
             >
@@ -92,7 +92,7 @@ function Works() {
                   padding= "10"   
                   marginTop="10px">
               <Image
-              src={require("../public/checklist.jpeg")}
+              src={require("../public/luckychamp.jpg")}
               height= "150"
               width= "250"
                style={{
@@ -100,11 +100,11 @@ function Works() {
                 }}
               />
               </Box>
-              <Typography sx={{ fontSize: "20px", color: "#bfbfbf" }}>
+              <Typography sx={{ fontSize: "16px", color: "#bfbfbf" }}>
                 Web Developement
               </Typography>
-              <Typography sx={{ fontSize: "20px", color: "#fff" }}>
-                To-Do-List
+              <Typography sx={{ fontSize: "20px", color: "#fff", }}>
+               <a style={{color:"#fff", textDecoration:"none",}} href="https://lucky-six.vercel.app/">Project Center Website</a>   
               </Typography>
             </Box>
 
@@ -126,7 +126,7 @@ function Works() {
                 "&:hover":{
                     boxShadow:'0px 5px 8px 0px #0099e6',
                     elevation:20,
-                    scale:'1.1'
+                    scale:'1.05'
                 }
               }}
             >
@@ -143,11 +143,11 @@ function Works() {
               }}
               />
               </Box>
-              <Typography sx={{ fontSize: "20px", color: "#bfbfbf" }}>
+              <Typography sx={{ fontSize: "16px", color: "#bfbfbf" }}>
                 Web Developement
               </Typography>
-              <Typography sx={{ fontSize: "20px", color: "#fff" }}>
-                Shoppy Website
+              <Typography sx={{ fontSize: "20px", color: "#fff", }}>
+               <a style={{color:"#fff", textDecoration:"none",}} href="https://shoping-todolist-auth.vercel.app/Loginpage">Shopping Website</a>   
               </Typography>
             </Box>
 
@@ -168,7 +168,7 @@ function Works() {
                 "&:hover":{
                     boxShadow:'0px 5px 8px 0px #0099e6',
                     elevation:20,
-                    scale:'1.1'
+                    scale:'1.05'
                 }
               }}
             >
@@ -185,11 +185,11 @@ function Works() {
               }}
               />
               </Box>
-              <Typography sx={{ fontSize: "20px", color: "#bfbfbf" }}>
+              <Typography sx={{ fontSize: "16px", color: "#bfbfbf" }}>
                 Web Developement
               </Typography>
-              <Typography sx={{ fontSize: "20px", color: "#fff" }}>
-                To-Do-List
+              <Typography sx={{ fontSize: "20px", color: "#fff", }}>
+               <a style={{color:"#fff", textDecoration:"none",}} href="https://checklist-lime-gamma.vercel.app/">To-Do-List</a>   
               </Typography>
             </Box>
           </Stack>
