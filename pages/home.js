@@ -8,7 +8,17 @@ function Homepage() {
   return (
     <>
       <Layout>
-        <Stack  margin="30px 60px 0 60px" height='100vh' >
+        <Stack
+          margin="30px 60px 0 60px"
+          height="100vh"
+          sx={{
+            alignItems: {
+              xl: "center",
+              lg: "center",
+              md: "center",
+            },
+          }}
+        >
           <Stack
             gap={3}
             sx={{
@@ -45,8 +55,7 @@ function Homepage() {
                   src={require("../public/gokul.jpg")}
                   height="280"
                   width="250"
-                  style={{borderRadius:"10px"
-                }}
+                  style={{ borderRadius: "10px" }}
                 />
               </Box>
             </div>
