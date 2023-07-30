@@ -75,7 +75,8 @@ function Works() {
               },
               gap: { xl: 0, lg: 0, md: 3, sm: 3, xs: 3 },
               width: "100%",
-              //bgcolor:'red'
+              gap: 2,
+              // bgcolor: "red",
             }}
           >
             {/* card 1 */}
@@ -124,7 +125,6 @@ function Works() {
                 </a>
               </Typography>
             </Box>
-
             {/* card 2 */}
             <Box
               className="animate__animated animate__zoomIn"
@@ -171,7 +171,6 @@ function Works() {
                 </a>
               </Typography>
             </Box>
-
             {/* card 3 */}
             <Box
               className="animate__animated animate__zoomIn"
@@ -214,6 +213,51 @@ function Works() {
                   href="https://crudapi-f8ce-imckyutly-gokul-pga.vercel.app/"
                 >
                   To-Do-List
+                </a>
+              </Typography>
+            </Box>
+            {/* card - 4 */}
+            <Box
+              className="animate__animated animate__zoomIn"
+              gap={2}
+              sx={{
+                display: "flex",
+                flexDirection: "column",
+                height: "290px",
+                width: "300px",
+                alignItems: "center",
+                padding: "10px",
+                borderRadius: "5px 5px 25px 25px",
+                border: "2px #fff solid",
+                bgcolor: "#262626",
+                transition: "0.3s",
+                "&:hover": {
+                  boxShadow: "0px 5px 8px 0px #0099e6",
+                  elevation: 20,
+                  scale: "1.05",
+                },
+              }}
+            >
+              <Box borderRadius="15" padding="10" marginTop="10px">
+                <Image
+                  src={require("../public/NxtJob.jpg")}
+                  height="150"
+                  width="250"
+                  style={{
+                    borderRadius: "15px",
+                  }}
+                />
+              </Box>
+              <Typography sx={{ fontSize: "16px", color: "#bfbfbf" }}>
+                Web Developement
+              </Typography>
+              <Typography sx={{ fontSize: "20px", color: "#fff" }}>
+                <a
+                  target="_blank"
+                  style={{ color: "#fff", textDecoration: "none" }}
+                  href="https://nextjob.pages.dev/"
+                >
+                  Resume Shortlist
                 </a>
               </Typography>
             </Box>
