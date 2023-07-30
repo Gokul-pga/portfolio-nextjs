@@ -124,6 +124,9 @@ function Works() {
                   Project Center Website
                 </a>
               </Typography>
+              <Typography sx={{ fontSize: "14px", color: "#bfbfbf" }}>
+                Built - Next Js | MongoDB | Material UI
+              </Typography>
             </Box>
             {/* card 2 */}
             <Box
@@ -170,6 +173,9 @@ function Works() {
                   Shopping Website
                 </a>
               </Typography>
+              <Typography sx={{ fontSize: "14px", color: "#bfbfbf" }}>
+                Built - React Js | Supabase | Material UI
+              </Typography>
             </Box>
             {/* card 3 */}
             <Box
@@ -215,6 +221,9 @@ function Works() {
                   To-Do-List
                 </a>
               </Typography>
+              <Typography sx={{ fontSize: "14px", color: "#bfbfbf" }}>
+                Built - React Js | MongoDB | Tailwind
+              </Typography>
             </Box>
             {/* card - 4 */}
             <Box
@@ -259,6 +268,9 @@ function Works() {
                 >
                   Resume Shortlist
                 </a>
+              </Typography>
+              <Typography sx={{ fontSize: "14px", color: "#bfbfbf" }}>
+                Built - Next Js | MongoDB | Tailwind
               </Typography>
             </Box>
           </Stack>
