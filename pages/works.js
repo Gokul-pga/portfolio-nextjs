@@ -1,8 +1,9 @@
 import React from "react";
 import Layout from "@/components/Layout";
-import { Box, Stack, Typography } from "@mui/material";
+import { Box, Grid, Stack, Typography } from "@mui/material";
 import Image from "next/image";
 import "animate.css";
+import { Projects } from "../components/Array";
 
 function Works() {
   return (
@@ -61,7 +62,8 @@ function Works() {
 
           {/*------------------------------ Project Template Start------------------------------ */}
 
-          <Stack
+          <Grid
+            container
             sx={{
               padding: "10px 0",
               alignItems: "center",
@@ -80,200 +82,59 @@ function Works() {
             }}
           >
             {/* card 1 */}
-            <Box
-              className="animate__animated animate__zoomIn"
-              gap={2}
-              sx={{
-                gap: 2,
-                display: "flex",
-                flexDirection: "column",
-                height: "290px",
-                width: "300px",
-                alignItems: "center",
-                padding: "10px",
-                borderRadius: "5px 5px 25px 25px",
-                border: "2px #fff solid",
-                bgcolor: "#262626",
-                transition: "0.3s",
-                "&:hover": {
-                  boxShadow: "0px 5px 8px 0px #0099e6",
-                  elevation: 20,
-                  scale: "1.05",
-                },
-              }}
-            >
-              <Box borderRadius="15" padding="10" marginTop="10px">
-                <Image
-                  src={require("../public/luckychamp.jpg")}
-                  height="150"
-                  width="250"
-                  style={{
-                    borderRadius: "15px",
-                  }}
-                />
-              </Box>
-              <Typography sx={{ fontSize: "16px", color: "#bfbfbf" }}>
-                Web Developement
-              </Typography>
-              <Typography sx={{ fontSize: "20px", color: "#fff" }}>
-                <a
-                  target="_blank"
-                  style={{ color: "#fff", textDecoration: "none" }}
-                  href="https://lucky-six.vercel.app/"
-                >
-                  Project Center Website
-                </a>
-              </Typography>
-              <Typography sx={{ fontSize: "14px", color: "#bfbfbf" }}>
-                Built - Next Js | MongoDB | Material UI
-              </Typography>
-            </Box>
-            {/* card 2 */}
-            <Box
-              className="animate__animated animate__zoomIn"
-              gap={2}
-              sx={{
-                gap: 2,
-                display: "flex",
-                flexDirection: "column",
-                height: "290px",
-                width: "300px",
-                alignItems: "center",
-                padding: "10px",
-                borderRadius: "5px 5px 25px 25px",
-                border: "2px #fff solid",
-                bgcolor: "#262626",
-                transition: "0.3s",
-                "&:hover": {
-                  boxShadow: "0px 5px 8px 0px #0099e6",
-                  elevation: 20,
-                  scale: "1.05",
-                },
-              }}
-            >
-              <Box borderRadius="15" padding="10" marginTop="10px">
-                <Image
-                  src={require("../public/shopping.jpeg")}
-                  height="150"
-                  width="250"
-                  style={{
-                    borderRadius: "15px",
-                  }}
-                />
-              </Box>
-              <Typography sx={{ fontSize: "16px", color: "#bfbfbf" }}>
-                Web Developement
-              </Typography>
-              <Typography sx={{ fontSize: "20px", color: "#fff" }}>
-                <a
-                  target="_blank"
-                  style={{ color: "#fff", textDecoration: "none" }}
-                  href="https://shoping-todolist-auth.vercel.app/Loginpage"
-                >
-                  Shopping Website
-                </a>
-              </Typography>
-              <Typography sx={{ fontSize: "14px", color: "#bfbfbf" }}>
-                Built - React Js | Supabase | Material UI
-              </Typography>
-            </Box>
-            {/* card 3 */}
-            <Box
-              className="animate__animated animate__zoomIn"
-              gap={2}
-              sx={{
-                display: "flex",
-                flexDirection: "column",
-                height: "290px",
-                width: "300px",
-                alignItems: "center",
-                padding: "10px",
-                borderRadius: "5px 5px 25px 25px",
-                border: "2px #fff solid",
-                bgcolor: "#262626",
-                transition: "0.3s",
-                "&:hover": {
-                  boxShadow: "0px 5px 8px 0px #0099e6",
-                  elevation: 20,
-                  scale: "1.05",
-                },
-              }}
-            >
-              <Box borderRadius="15" padding="10" marginTop="10px">
-                <Image
-                  src={require("../public/CRUD.jpg")}
-                  height="150"
-                  width="250"
-                  style={{
-                    borderRadius: "15px",
-                  }}
-                />
-              </Box>
-              <Typography sx={{ fontSize: "16px", color: "#bfbfbf" }}>
-                Web Developement
-              </Typography>
-              <Typography sx={{ fontSize: "20px", color: "#fff" }}>
-                <a
-                  target="_blank"
-                  style={{ color: "#fff", textDecoration: "none" }}
-                  href="https://crudapi-f8ce-imckyutly-gokul-pga.vercel.app/"
-                >
-                  To-Do-List
-                </a>
-              </Typography>
-              <Typography sx={{ fontSize: "14px", color: "#bfbfbf" }}>
-                Built - React Js | MongoDB | Tailwind
-              </Typography>
-            </Box>
-            {/* card - 4 */}
-            <Box
-              className="animate__animated animate__zoomIn"
-              gap={2}
-              sx={{
-                display: "flex",
-                flexDirection: "column",
-                height: "290px",
-                width: "300px",
-                alignItems: "center",
-                padding: "10px",
-                borderRadius: "5px 5px 25px 25px",
-                border: "2px #fff solid",
-                bgcolor: "#262626",
-                transition: "0.3s",
-                "&:hover": {
-                  boxShadow: "0px 5px 8px 0px #0099e6",
-                  elevation: 20,
-                  scale: "1.05",
-                },
-              }}
-            >
-              <Box borderRadius="15" padding="10" marginTop="10px">
-                <Image
-                  src={require("../public/NxtJob.jpg")}
-                  height="150"
-                  width="250"
-                  style={{
-                    borderRadius: "15px",
-                  }}
-                />
-              </Box>
-              <Typography sx={{ fontSize: "16px", color: "#bfbfbf" }}>
-                Web Developement
-              </Typography>
-              <Typography sx={{ fontSize: "20px", color: "#fff" }}>
-                <a
-                  target="_blank"
-                  style={{ color: "#fff", textDecoration: "none" }}
-                  href="https://nextjob.pages.dev/"
-                >
-                  Resume Shortlist
-                </a>
-              </Typography>
-              <Typography sx={{ fontSize: "14px", color: "#bfbfbf" }}>
-                Built - Next Js | MongoDB | Tailwind
-              </Typography>
-            </Box>
-          </Stack>
+            {Projects.map((item) => (
+              <Grid
+                item
+                md={4}
+                key={item._id}
+                className="animate__animated animate__zoomIn"
+                gap={2}
+                sx={{
+                  gap: 2,
+                  display: "flex",
+                  flexDirection: "column",
+                  height: "300px",
+                  width: "300px",
+                  alignItems: "center",
+                  padding: "10px",
+                  borderRadius: "25px 25px 25px 25px",
+                  bgcolor: "#262626",
+                  transition: "0.3s",
+                  "&:hover": {
+                    boxShadow: "0px 5px 8px 0px #0099e6",
+                    elevation: 20,
+                    scale: ".90",
+                  },
+                }}
+              >
+                <Box borderRadius="15" padding="10" marginTop="10px">
+                  <Image
+                    src={item.img}
+                    height="150"
+                    width="250"
+                    style={{
+                      borderRadius: "15px",
+                    }}
+                  />
+                </Box>
+                <Typography sx={{ fontSize: "16px", color: "#bfbfbf" }}>
+                  {item.type}
+                </Typography>
+                <Typography sx={{ fontSize: "20px", color: "#fff" }}>
+                  <a
+                    target="_blank"
+                    style={{ color: "#fff", textDecoration: "none" }}
+                    href={item.link}
+                  >
+                    {item.tittle}
+                  </a>
+                </Typography>
+                <Typography sx={{ fontSize: "14px", color: "#bfbfbf" }}>
+                  {item.built}
+                </Typography>
+              </Grid>
+            ))}
+          </Grid>
         </Stack>
       </Layout>
     </>
