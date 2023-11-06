@@ -3,7 +3,7 @@ export const Projects = [
     _id: "0",
     type: "Web Developement",
     tittle: "Project Center Website",
-    built: "Built - Next Js | MongoDB | Material UI | Redux",
+    built: "Built - Next Js | MongoDB | Material UI",
     link: "https://lucky-six.vercel.app/",
     img: require("../public/luckychamp.jpg"),
   },
