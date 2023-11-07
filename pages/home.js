@@ -9,13 +9,18 @@ function Homepage() {
     <>
       <Layout>
         <Stack
-          margin="30px 60px 0 60px"
-          height="100vh"
           sx={{
             alignItems: {
               xl: "center",
               lg: "center",
               md: "center",
+            },
+            margin: {
+              xl: "30px 60px 0 60px",
+              lg: "30px 60px 0 60px",
+              md: "30px 60px 0 60px",
+              sm: "30px 25px 0 25px",
+              xs: "30px 25px 0 25px",
             },
           }}
         >

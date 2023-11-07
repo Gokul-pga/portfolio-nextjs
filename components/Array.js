@@ -3,17 +3,17 @@ export const Projects = [
     _id: "0",
     type: "Web Developement",
     tittle: "Project Center Website",
-    built: "Built - Next Js | MongoDB | Material UI | Redux",
+    built: "Built - Next Js | MongoDB | Material UI",
     link: "https://lucky-six.vercel.app/",
     img: require("../public/luckychamp.jpg"),
   },
   {
     _id: "1",
     type: "Web Developement",
-    tittle: "Shopping Website",
-    built: "Built - React Js | Supabase | Material UI",
-    link: "https://shoping-todolist-auth.vercel.app/Loginpage",
-    img: require("../public/shopping.jpeg"),
+    tittle: "Gallery-Website",
+    built: "Built - Next Js | MongoDB | Tailwind",
+    link: "https://gallery-fyas.vercel.app/",
+    img: require("../public/Gallery.jpg"),
   },
   {
     _id: "2",
@@ -31,12 +31,5 @@ export const Projects = [
     link: "https://nextjob.pages.dev/",
     img: require("../public/NxtJob.jpg"),
   },
-  {
-    _id: "4",
-    type: "Web Developement",
-    tittle: "Gallery-Website",
-    built: "Built - Next Js | MongoDB | Tailwind",
-    link: "https://gallery-fyas.vercel.app/",
-    img: require("../public/Gallery.jpg"),
-  },
+ 
 ];

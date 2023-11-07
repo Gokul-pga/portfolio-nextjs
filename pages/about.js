@@ -10,16 +10,19 @@ function About() {
       <Layout>
         {" "}
         {/* start stack 1 */}
-        <Stack flex={1} gap={3}
-         sx={{
-          padding:{
-            xl: "30px 60px 0 60px",
-            lg: "30px 60px 0 60px",
-            md: "30px 20px 0 20px",
-            sm: "30px 20px 0 20px",
-            xs: "30px 20px 0 20px",
-          }
-        }}>
+        <Stack
+          flex={1}
+          gap={3}
+          sx={{
+            padding: {
+              xl: "30px 60px 0 60px",
+              lg: "30px 60px 0 60px",
+              md: "30px 20px 0 20px",
+              sm: "30px 20px 0 20px",
+              xs: "30px 20px 0 20px",
+            },
+          }}
+        >
           <Box
             gap={2}
             sx={{
@@ -33,22 +36,23 @@ function About() {
               },
             }}
           >
-            <Stack flex={1} sx={{
-               width:
-               {
-                md: '100%',
-                sm: '100%',
-                xs: '100%',
-              },
-              alignItems:'center'
-            }}>
+            <Stack
+              flex={1}
+              sx={{
+                width: {
+                  md: "100%",
+                  sm: "100%",
+                  xs: "100%",
+                },
+                alignItems: "center",
+              }}
+            >
               <Box
                 className="animate__animated animate__fadeInLeft"
                 sx={{
                   alignItems: "center",
                   padding: "30px",
                   borderRadius: "20px",
-                 
                 }}
               >
                 <Image
@@ -56,11 +60,11 @@ function About() {
                   src={require("../public/gokul.jpg")}
                   width="250"
                   height="270"
-                 style={{
-                  borderRadius:"10px",
-                  alignItems:'center'
-                 }}               
-                  />
+                  style={{
+                    borderRadius: "10px",
+                    alignItems: "center",
+                  }}
+                />
               </Box>
             </Stack>
 
@@ -87,7 +91,8 @@ function About() {
                     color: "#fff",
                   }}
                 />
-                <Typography  className="portfoliolineargradient"
+                <Typography
+                  className="portfoliolineargradient"
                   sx={{
                     fontSize: {
                       xl: "70px",
@@ -98,7 +103,7 @@ function About() {
                     },
                     fontWeight: "bold",
                     color: "#bfbfbf",
-                    fontFamily:'serif'
+                    fontFamily: "serif",
                   }}
                 >
                   SELF-SUMMARY
@@ -131,7 +136,11 @@ function About() {
                   B.E - Mechatronics Engineering
                 </Typography>
                 <Typography sx={{ fontSize: "16px", color: " #a6a6a6" }}>
-                As a web designer, my objective is to make a positive impact on clients, co-workers, and the Internet using my skills and experience to design compelling and attractive websites. Solving code problems. Editing & Design with designing team in the company to build perfect web designs.
+                  As a web designer, my objective is to make a positive impact
+                  on clients, co-workers, and the Internet using my skills and
+                  experience to design compelling and attractive websites.
+                  Solving code problems. Editing & Design with designing team in
+                  the company to build perfect web designs.
                 </Typography>
               </Box>
             </Stack>
@@ -146,8 +155,8 @@ function About() {
               flexDirection: {
                 xl: "row",
                 lg: "row",
-                md: "column",
-                sm: "column",
+                md: "row",
+                sm: "row",
                 xs: "column",
               },
             }}
@@ -168,7 +177,7 @@ function About() {
               <Box sx={{ fontSize: "15px", color: " #a6a6a6" }}>
                 <Typography>2019 - 2023</Typography>
                 <Typography>SNS College Of Technology</Typography>
-                <Typography>CGPA - 8.9%</Typography>
+                <Typography>CGPA - 8.6%</Typography>
               </Box>
               <Box sx={{ fontSize: "15px", color: " #a6a6a6" }}>
                 <Typography>2017 - 2019</Typography>
@@ -217,8 +226,8 @@ function About() {
               flexDirection: {
                 xl: "row",
                 lg: "row",
-                md: "column",
-                sm: "column",
+                md: "row",
+                sm: "row",
                 xs: "column",
               },
             }}
@@ -241,7 +250,6 @@ function About() {
               <Box sx={{ fontSize: "15px", color: " #a6a6a6" }}>
                 <Typography>Web Developement</Typography>
                 <Typography>Photography</Typography>
-                <Typography>Video Editing</Typography>
               </Box>
             </Stack>
             <Stack
@@ -258,20 +266,62 @@ function About() {
             >
               <Typography sx={{ fontSize: "25px" }}>Skills</Typography>
               <Box sx={{ fontSize: "15px", color: " #a6a6a6" }}>
-                <Typography>HTML & CSS</Typography>
-                <Typography>Javascript</Typography>
-                <Typography>Material UI</Typography>
-                <Typography>React JS</Typography>
-                <Typography>Next JS</Typography>
-                <Typography>React Native</Typography>
-                <Typography>MongoDB</Typography>
-                <Typography>JSON</Typography>
-                <Typography>Rest API</Typography>
-                <Typography>Node JS</Typography>
+                <Box>
+                  <Typography sx={{ fontSize: "20px", color: " #fff" }}>
+                    Front-end Developement:-
+                  </Typography>
+                  <Box
+                    sx={{
+                      fontSize: "15px",
+                      color: " #a6a6a6",
+                      padding: "5px 0 0 20px",
+                    }}
+                  >
+                    <Typography>HTML & CSS</Typography>
+                    <Typography>Tailwind Css</Typography>
+                    <Typography>Material Ui</Typography>
+                    <Typography>JavaScript</Typography>
+                    <Typography>React Js</Typography>
+                    <Typography>Next Js</Typography>
+                    <Typography>Redux</Typography>
+                  </Box>
+                </Box>
+                <Box>
+                  <Typography sx={{ fontSize: "20px", color: " #fff" }}>
+                    Back-end Developement:-
+                  </Typography>
+                  <Box
+                    sx={{
+                      fontSize: "15px",
+                      color: " #a6a6a6",
+                      padding: "5px 0 0 20px",
+                    }}
+                  >
+                    <Typography>MongoDB</Typography>
+                    <Typography>Node Js</Typography>
+                    <Typography>Express Js</Typography>
+                  </Box>
+                </Box>
+                <Box>
+                  <Typography sx={{ fontSize: "20px", color: " #fff" }}>
+                    Version Control:-
+                  </Typography>
+                  <Box
+                    sx={{
+                      fontSize: "15px",
+                      color: " #a6a6a6",
+                      padding: "5px 0 0 20px",
+                    }}
+                  >
+                    <Typography>Git</Typography>
+                    <Typography>GitHub</Typography>
+                    
+                  </Box>
+                </Box>
               </Box>
             </Stack>
 
-            <Stack
+            {/* <Stack
               gap={1}
               flex={1}
               className="animate__animated animate__zoomIn"
@@ -290,7 +340,7 @@ function About() {
                 <Typography>Photography</Typography>
                 <Typography>Adobe Premier Pro</Typography>
               </Box>
-            </Stack>
+            </Stack> */}
           </Box>
           {/* end stack 3 */}
         </Stack>
